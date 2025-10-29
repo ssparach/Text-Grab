@@ -24,6 +24,7 @@
         <RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
         <EnableMsixTooling>false</EnableMsixTooling>
         <Version>4.10.0</Version>
+        <WindowsAppSDKBootstrapAutoInitializeOptions_OnNoMatch_ShowUI>true</WindowsAppSDKBootstrapAutoInitializeOptions_OnNoMatch_ShowUI>
     </PropertyGroup>
 
     <ItemGroup>

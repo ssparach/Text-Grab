@@ -33,6 +33,7 @@ jobs:
             --blame-hang `
             --blame-hang-timeout "5m" `
             --blame-hang-dump-type "full" `
+            --blame-crash-collect-always
             --results-directory "TestResults"
 
       - name: Upload TestResults and Dumps
