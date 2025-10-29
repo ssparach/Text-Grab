@@ -8,7 +8,6 @@
         <Nullable>enable</Nullable>
         <WindowsSdkPackageVersion>10.0.22621.48</WindowsSdkPackageVersion>
         <IsPackable>false</IsPackable>
-        <WindowsAppSdkDeploymentManagerInitialize>false</WindowsAppSdkDeploymentManagerInitialize>
     </PropertyGroup>
 
     <ItemGroup>
