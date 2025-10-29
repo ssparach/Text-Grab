@@ -8,6 +8,7 @@
         <Nullable>enable</Nullable>
         <WindowsSdkPackageVersion>10.0.22621.48</WindowsSdkPackageVersion>
         <IsPackable>false</IsPackable>
+        <EnableMsixTooling>true</EnableMsixTooling>
     </PropertyGroup>
 
     <ItemGroup>

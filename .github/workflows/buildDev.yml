@@ -24,6 +24,11 @@ jobs:
         run: dotnet restore ${{ env.PROJECT_PATH }}
       - name: Build
         run: dotnet build ${{ env.PROJECT_PATH }} -p:EnableMsixTooling=true
+      - name: package
+        shell: pwsh
+        run: |
+          Write-Host "Listing installed AppX packages..."
+          Get-AppxPackage | Select-Object Name, PackageFullName, Version, Dependencies| Sort-Object Name | Format-Table -AutoSize
       - name: Test (auto-dump on hang)
         run: |
           mkdir TestResults
